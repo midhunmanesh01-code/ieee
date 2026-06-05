@@ -47,8 +47,8 @@ python -m http.server 8000
 Midhun Manesh -- A student member of IEEE SB CEC with an interest in web development, UX design, and lightweight static sites. This project showcases a minimal landing page template useful for demos and small events. 
 
 ## Credits
-Created for a task assigned by IEEE SB CEC.
+- Created for a web development task assigned by IEEE SB CEC.
 
 ## License
-© IEEE SB CEC
+- © IEEE SB CEC
 ---
