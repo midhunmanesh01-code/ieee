@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="IEEE">
+  <rect width="64" height="64" rx="6" fill="#0077A3" />
+
+  <!-- left diamond mark (rotated square) - smaller to avoid clipping the wordmark -->
+  <g transform="translate(8,18)">
+    <rect x="0" y="0" width="20" height="20" rx="3" transform="rotate(45 10 10)" fill="#ffffff" />
+    <!-- inner circle and simple glyph to echo the IEEE mark -->
+    <circle cx="10" cy="10" r="3" fill="#0077A3" />
+    <path d="M10 8.2c0.7 0 1.3 0.6 1.3 1.3 0 0.4-0.2 0.8-0.6 1" stroke="#0077A3" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M10 12.2v2" stroke="#0077A3" stroke-width="0.8" stroke-linecap="round" />
+  </g>
+
+  <!-- IEEE wordmark on the right, nudged slightly right so the I is visible -->
+  <text x="48" y="38" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle">IEEE</text>
+</svg>
